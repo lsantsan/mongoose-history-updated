@@ -1,6 +1,6 @@
 {
   "name": "mongoose-history-updated",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Keeps a history of all changes of a document (by using latest Mongoose features).",
   "main": "lib/mongoose-history.js",
   "files": [
@@ -56,7 +56,7 @@
   "dependencies": {},
   "devDependencies": {
     "async": "^2.6.0",
-    "mongoose": "^4.0.0",
+    "mongoose": "^5.3.3",
     "mocha": "2.4.5",
     "should": "8.2.2"
   },
