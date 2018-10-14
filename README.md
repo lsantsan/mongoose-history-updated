@@ -1,6 +1,6 @@
 # Mongoose History Plugin
 
-[![Build Status](https://travis-ci.org/nassor/mongoose-history.svg?branch=master)](https://travis-ci.org/nassor/mongoose-history)
+[![Build Status](https://travis-ci.org/lsantsan/mongoose-history-updated.svg?branch=master)](https://travis-ci.org/lsantsan/mongoose-history-updated)
 
 Keeps a history of all changes of a document (by using latest Mongoose features).
 
