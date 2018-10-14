@@ -2,12 +2,14 @@
 
 [![Build Status](https://travis-ci.org/nassor/mongoose-history.svg?branch=master)](https://travis-ci.org/nassor/mongoose-history)
 
-Keeps a history of all changes of a document.
+Keeps a history of all changes of a document (by using latest Mongoose features).
+
+THIS IS A FORK FROM [mongoose-history](https://www.npmjs.com/package/mongoose-history)
 
 ## Installation
 
 ```bash
-npm install mongoose-history
+npm install mongoose-history-updated
 ```
 
 Or add it to your package.json
@@ -18,7 +20,7 @@ For starting history of your collection, you need to simply add the mongoose-his
 
 ```javascript
 var mongoose        = require('mongoose')
-  , mongooseHistory = require('mongoose-history')
+  , mongooseHistory = require('mongoose-history-updated')
   , Schema          = mongoose.Schema
 
 var Post = new Schema({
